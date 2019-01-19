@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MoneyApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="slide_1_title">Slide 1 title</string>
+    <string name="slide_2_title">Slide 2 title</string>
+    <string name="slide_3_title">Slide 3 title</string>
+    <string name="slide_4_title">Slide 4 title</string>
+    <string name="slide_4_desc">Slide 4 description</string>
+    <string name="slide_3_desc">Slide 3 description</string>
+    <string name="slide_2_desc">Slide 2 description</string>
+    <string name="slide_1_desc">Slide 1 description</string>
+</resources>

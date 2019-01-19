@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home Page" />
+        <item
+            android:id="@+id/nav_my_earning"
+            android:title="My Earning" />
+        <item
+            android:id="@+id/nav_notification"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:visible="false" />
+        <item
+            android:id="@+id/nav_lucky_user"
+            android:title="Lucky User" />
+        <item
+            android:id="@+id/nav_how_its_works"
+            android:title="How it Works" />
+        <item android:title="FAQs" />
+
+        <item
+            android:id="@+id/nav_privacy_policy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_log_out"
+            android:title="Log Out" />
+    </group>
+
+
+</menu>
