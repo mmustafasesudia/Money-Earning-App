@@ -18,7 +18,7 @@
             android:layout_height="30dp"
             android:background="@drawable/btn_bg_one"
             android:fontFamily="sans-serif-condensed"
-            android:text="All Offers"
+            android:text="History"
             android:textColor="@android:color/black"
             android:textSize="12sp" />
 
@@ -28,7 +28,7 @@
             android:layout_height="30dp"
             android:background="@drawable/btn_bg_three"
             android:fontFamily="sans-serif-condensed"
-            android:text="Free Offers"
+            android:text="Payment"
             android:textColor="@android:color/white"
             android:textSize="12sp" />
 
