@@ -18,13 +18,13 @@ import java.util.ArrayList;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class ViewPagerLeftOffersFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener {
+public class ViewPagerRightOffersFragment extends Fragment implements SwipeRefreshLayout.OnRefreshListener {
 
     ArrayList<WorkerJobs> data = new ArrayList<>();
     SwipeRefreshLayout mSwipeRefreshLayout;
     RecyclerView rv;
 
-    public ViewPagerLeftOffersFragment() {
+    public ViewPagerRightOffersFragment() {
         // Required empty public constructor
     }
 
@@ -33,7 +33,7 @@ public class ViewPagerLeftOffersFragment extends Fragment implements SwipeRefres
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View rootView = inflater.inflate(R.layout.fragment_view_pager_left_offers_fragments, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_view_pager_right_offers_fragments, container, false);
         rv = rootView.findViewById(R.id.rv_order_cancel);
         rv.setHasFixedSize(true);
 
@@ -44,7 +44,7 @@ public class ViewPagerLeftOffersFragment extends Fragment implements SwipeRefres
         data.add(obj);
         WorkerJobs obj1 = new WorkerJobs("0", "04-Feb-2018", "2500", "2500");
         data.add(obj1);
-        AdapterLeftOffers adapter = new AdapterLeftOffers(getActivity(), data);
+        AdapterRightOffers adapter = new AdapterRightOffers(getActivity(), data);
         rv.setAdapter(adapter);
         LinearLayoutManager llm = new LinearLayoutManager(getActivity());
         rv.setLayoutManager(llm);

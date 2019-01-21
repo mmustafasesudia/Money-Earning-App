@@ -16,6 +16,11 @@ public class WorkerJobs {
     String RattingByCustomer;
     String RattingByWorker;
     String imagePath;
+    String modePayment;
+    String date;
+    String pts;
+    String amt;
+
 
     public WorkerJobs(String imagePath) {
         this.imagePath = imagePath;
@@ -32,11 +37,11 @@ public class WorkerJobs {
         this.jobId = jobId;
     }
 
-    public WorkerJobs(String cutomerName, String jobTitle, String jobId, String jobCreationTime) {
-        this.cutomerName = cutomerName;
-        this.jobTitle = jobTitle;
-        this.jobId = jobId;
-        this.jobCreationTime = jobCreationTime;
+    public WorkerJobs(String modePayment, String date, String pts, String amt) {
+        this.modePayment = modePayment;
+        this.date = date;
+        this.pts = pts;
+        this.amt = amt;
     }
 
     public WorkerJobs(String jobId, String cutomerName, String Worker_Person_personId, String Customer_Person_personId, String jobStatus, String jobBookingStatus, String jobCost, String jobHours, String jobCreationTime, String jobCompleteTime, String jobTitle, String RattingByCustomer, String RattingByWorker) {
@@ -54,6 +59,38 @@ public class WorkerJobs {
         this.RattingByCustomer = RattingByCustomer;
         this.RattingByWorker = RattingByWorker;
 
+    }
+
+    public String getModePayment() {
+        return modePayment;
+    }
+
+    public void setModePayment(String modePayment) {
+        this.modePayment = modePayment;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
+
+    public String getPts() {
+        return pts;
+    }
+
+    public void setPts(String pts) {
+        this.pts = pts;
+    }
+
+    public String getAmt() {
+        return amt;
+    }
+
+    public void setAmt(String amt) {
+        this.amt = amt;
     }
 
     public String getImagePath() {

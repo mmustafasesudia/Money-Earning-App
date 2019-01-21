@@ -59,12 +59,9 @@
 
 
                     <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="5dp"
-                        android:src="@drawable/ic_diamond"
-                        android:tint="@color/colorPrimaryDark" />
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:src="@drawable/diamond" />
 
 
                     <Button
@@ -106,11 +103,8 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="5dp"
-                        android:src="@drawable/ic_spinning_wheel"
-                        android:tint="@color/colorPrimaryDark" />
+                        android:layout_height="50dp"
+                        android:src="@drawable/spin" />
 
 
                     <Button
@@ -159,11 +153,8 @@
 
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="5dp"
-                        android:src="@drawable/ic_shake_64"
-                        android:tint="@color/colorPrimaryDark" />
+                        android:layout_height="50dp"
+                        android:src="@drawable/shake_and_earn" />
 
 
                     <Button
@@ -206,11 +197,8 @@
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="30dp"
-                        android:layout_marginTop="5dp"
-                        android:layout_marginBottom="5dp"
-                        android:src="@drawable/ic_invite_and_earn"
-                        android:tint="@color/colorPrimaryDark" />
+                        android:layout_height="50dp"
+                        android:src="@drawable/refer" />
 
 
                     <Button

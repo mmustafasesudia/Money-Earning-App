@@ -10,8 +10,6 @@ import android.view.View;
 import com.github.paolorotolo.appintro.AppIntro;
 import com.github.paolorotolo.appintro.AppIntroFragment;
 
-import static com.mm.moneyapp.Config.clearshareprefrence;
-
 public class IntroActivity extends AppIntro {
 
 
@@ -19,7 +17,6 @@ public class IntroActivity extends AppIntro {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        clearshareprefrence(getApplication());
         // Checking for first time launch - before calling setContentView()
         if (Config.isFirstTimeLaunch(this).length() > 0) {
             launchHome();

@@ -91,7 +91,7 @@ public class OffersFragment extends Fragment implements View.OnClickListener {
 
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getChildFragmentManager());
-        adapter.addFragment(new ViewPagerLeftOffersFragment(), "COMPLETED");
+        adapter.addFragment(new ViewPagerRightOffersFragment(), "COMPLETED");
         adapter.addFragment(new ViewPagerLeftOffersFragment(), "CANCELED");
         viewPager.setAdapter(adapter);
         viewPager.setCurrentItem(0);

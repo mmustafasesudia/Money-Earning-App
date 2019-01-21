@@ -21,6 +21,8 @@ import com.mm.moneyapp.Offers.OffersFragment;
 import com.mm.moneyapp.Utills.FragmentReplace;
 import com.mm.moneyapp.Utills.OffersFragments;
 
+import static com.mm.moneyapp.Config.clearshareprefrence;
+
 public class Drawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -139,6 +141,7 @@ public class Drawer extends AppCompatActivity
         } else if (id == R.id.nav_log_out) {
             startActivity(new Intent(Drawer.this, SignInSignUpActivity.class));
             finish();
+            clearshareprefrence(getApplication());
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
