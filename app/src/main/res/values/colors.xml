@@ -5,7 +5,7 @@
     <color name="colorPrimaryLight">#c8ed7b7b</color>
     <color name="colorAccent">#D81B60</color>
     <color name="Whit">#FFFFFF</color>
-    <color name="Gr">#f7f3f3</color>
     <color name="Blac">#000000</color>
+    <color name="Gr">#f7f3f3</color>
     <color name="Silver">#464a4a</color>
 </resources>

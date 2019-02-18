@@ -17,4 +17,6 @@
     <string name="slide_3_desc">Slide 3 description</string>
     <string name="slide_2_desc">Slide 2 description</string>
     <string name="slide_1_desc">Slide 1 description</string>
+    <string name="available">Available</string>
+    <string name="google_ads_mob_id">ca-app-pub-3940256099942544~3347511713</string>
 </resources>

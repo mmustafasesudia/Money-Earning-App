@@ -19,6 +19,12 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven {
+            url  "https://fyber.bintray.com/fairbid-maven"
+        }
+        maven {
+            url "https://jitpack.io"
+        }
     }
 }
 
